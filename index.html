@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Course </title>
     <link rel="shortcut icon" href="image/favicon.png" type="image/x-icon">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <!-- Bootstrap , fonts & icons  -->
     <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="./css/cssrapid_by_nk.css">
@@ -59,10 +60,8 @@
                     </div>
 
                     <div class="header-btn header-btn-l-12 ms-auto d-none d-xs-inline-flex">
-                        <a class="btn btn sign-in-btn focus-reset la oui" href="https://airtable.com/shrpZ7QTtzwlmEIor"
-                            style="background-color: #FC593B; padding: 12px; color:white !important;">
-                            Changez de vie
-                        </a>
+                        <b><a class="" href="https://airtable.com/shrpZ7QTtzwlmEIor" style="color: black !important; font-weight: 900 !important; font-family: 'poppins' !important;" id="typed"></a>
+                        </b>
                     </div>
                     <!-- mobile menu trigger -->
 
@@ -82,7 +81,8 @@
                             <p>Saviez-vous qu'il était possible de travailler depuis le <b>GABON</b> pour des
                                 entreprises étrangères ?</p>
                             </p>
-                            <a href="https://airtable.com/shrpZ7QTtzwlmEIor" class="btn focus-reset shadow-anime ">Je suis
+                            <a href="https://airtable.com/shrpZ7QTtzwlmEIor" class="btn focus-reset shadow-anime ">Je
+                                suis
                                 intéréssé(e)</a>
                             <div class="star-ratings-l12 d-xs-flex align-items-baseline">
                                 <div class="rating-items">
@@ -221,6 +221,15 @@
     <script src="./menu/menu.js"></script>
     <!-- Activation Script -->
     <script src="js/custom.js"></script>
+
+    <script>
+        var typed = new Typed('#typed', {
+            strings: ['Contactez-nous', 'Contactez-nous', '+241 77 32 32 11', 'contact@ecole241.org'],
+            typeSpeed: 50,
+            backSpeed: 100,
+            loop: true,
+        })
+    </script>
 </body>
 
 </html>
