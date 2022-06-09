@@ -1200,3 +1200,8 @@ Generated using nucleoapp.com
 ::-webkit-scrollbar-corner {
   width: 0px !important;
 }
+
+
+body {
+  overflow: hidden !important;
+}
